@@ -40,7 +40,7 @@ def rename_file(folder_path_input, folder_path_output):
         print('--------------------------------------------------------------------------')
         
         # Componer nuevo nombre
-        new_file_name_combined = str(file_name_split[1])+'_'+str(file_name_split[3])+'_'+str(file_name_split[-1])
+        new_file_name_combined = str(file_name_split[1])+'_'+str(file_name_split[3]) #+'_'+str(file_name_split[-1])
         print('Nuevo nombre compuesto: ', new_file_name_combined)
         print('--------------------------------------------------------------------------')
 
